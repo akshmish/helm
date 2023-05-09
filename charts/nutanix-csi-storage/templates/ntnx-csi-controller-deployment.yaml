@@ -56,9 +56,6 @@ spec:
             - name: ADDRESS
               value: /var/lib/csi/sockets/pluginproxy/csi.sock
           resources:
-            limits:
-              cpu: 100m
-              memory: 200Mi
             requests:
               cpu: 100m
               memory: 200Mi
@@ -118,9 +115,6 @@ spec:
                 fieldRef:
                   fieldPath: spec.nodeName
           resources:
-            limits:
-              cpu: 100m
-              memory: 200Mi
             requests:
               cpu: 100m
               memory: 200Mi

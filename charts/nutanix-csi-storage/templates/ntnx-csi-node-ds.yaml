@@ -40,9 +40,6 @@ spec:
                 fieldRef:
                   fieldPath: spec.nodeName
           resources:
-            limits:
-              cpu: 100m
-              memory: 200Mi
             requests:
               cpu: 100m
               memory: 200Mi
@@ -73,9 +70,6 @@ spec:
                 fieldRef:
                   fieldPath: status.hostIP
           resources:
-            limits:
-              cpu: 100m
-              memory: 200Mi
             requests:
               cpu: 100m
               memory: 200Mi
